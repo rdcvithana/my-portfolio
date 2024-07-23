@@ -1,0 +1,6 @@
+{
+    "watch": ["pages", "public"],
+    "ext": "js,json",
+    "ignore": ["**/*.cache.*"]
+  }
+  
