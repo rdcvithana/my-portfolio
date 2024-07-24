@@ -54,7 +54,7 @@ p.s. I am available for Freelance hire (UI design, web development). mail: mille
 }
 
 .trm-logo-text {
-  color: #00283a;
+  color: #1D1E24;
 }
 
 /***************************
@@ -108,7 +108,7 @@ preloader
   top: 0;
   width: 12%;
   height: 12%;
-  background-color: #00283a;
+  background-color: #1D1E24;
   transform: translateX(-50%);
   border-radius: 50%;
 }
@@ -369,12 +369,12 @@ app marcup
 
 ***************************/
 body {
-  background-color: #00151f;
+  background-color: #1D1E24;
   overflow: hidden;
 }
 
 .trm-app-frame {
-  border: solid 10px #00151f;
+  border: solid 10px #1D1E24;
   position: relative;
   overflow: hidden;
   border-radius: 20px;
@@ -480,7 +480,7 @@ top bar
   position: relative;
   font-weight: 900;
   font-size: 22px;
-  color: #00283a;
+  color: #1D1E24;
   letter-spacing: 0;
 }
 .trm-top-bar .container .trm-left-side .trm-logo-frame .trm-logo-text span {
@@ -566,7 +566,7 @@ menu
   width: 100%;
   padding: 0 20px;
   line-height: 80px;
-  color: #00283a;
+  color: #1D1E24;
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 2px;
@@ -647,7 +647,7 @@ menu
     color: #afb42b;
   }
   .trm-menu nav ul li.current-menu-item ul li a {
-    color: #00283a;
+    color: #1D1E24;
   }
   .trm-menu nav ul li ul {
     border-radius: 0;
@@ -694,7 +694,7 @@ mobile menu button
   width: 15px;
   height: 0.15em;
   border-radius: 1px;
-  background: #00283a;
+  background: #1D1E24;
   backface-visibility: hidden;
   transition: 0.4s ease-in-out;
 }
@@ -831,7 +831,7 @@ mode switcher
   content: "";
   height: 1px;
   width: 120%;
-  border-bottom: dotted 5px #00283a;
+  border-bottom: dotted 5px #1D1E24;
   position: absolute;
   z-index: 9;
   bottom: 0;
@@ -844,7 +844,7 @@ mode switcher
   font-size: 32px;
   margin-left: -15px;
   opacity: 1;
-  color: #00283a;
+  color: #1D1E24;
   transition: 0.6s ease-in-out;
 }
 .trm-mode-swich-animation-frame .trm-mode-swich-animation .fa-moon {
@@ -853,7 +853,7 @@ mode switcher
   top: 0;
   font-size: 32px;
   margin-left: -15px;
-  color: #00283a;
+  color: #1D1E24;
   opacity: 0;
   transform: translateY(70px) rotate(0);
   transition: 0.6s ease-in-out;
@@ -923,7 +923,7 @@ h5,
 h6 {
   letter-spacing: 0;
   font-weight: 800;
-  color: #00283a;
+  color: #1D1E24;
   margin-bottom: 0;
 }
 
@@ -952,7 +952,7 @@ p {
 }
 
 .trm-contrast {
-  color: #00283a !important;
+  color: #1D1E24 !important;
   opacity: 1 !important;
 }
 
@@ -965,7 +965,7 @@ p {
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 2px;
-  color: #00283a;
+  color: #1D1E24;
   transition: 0.4s ease-in-out;
 }
 .trm-label.trm-label-light {
@@ -1032,7 +1032,7 @@ a.trm-label:hover .fa-arrow-right {
   list-style-type: none;
   padding-left: 25px;
   margin-bottom: 15px;
-  color: #00283a;
+  color: #1D1E24;
 }
 .trm-list li:before {
   content: "";
@@ -1052,7 +1052,7 @@ blockquote {
   display: block;
   position: relative;
   background-color: #fcfcfe;
-  color: #00283a;
+  color: #1D1E24;
   padding: 40px;
   border-radius: 10px;
   font-style: italic;
@@ -1107,7 +1107,7 @@ blockquote.trm-color-quote:after {
 }
 .trm-card .trm-icon {
   font-size: 22px;
-  color: #00283a;
+  color: #1D1E24;
   margin-bottom: 20px;
 }
 
@@ -1200,7 +1200,7 @@ form {
   width: 100%;
 }
 form input {
-  color: #00283a;
+  color: #1D1E24;
   width: 100%;
   box-sizing: border-box;
   display: block;
@@ -1217,7 +1217,7 @@ form input:focus {
   outline: inherit;
 }
 form textarea {
-  color: #00283a;
+  color: #1D1E24;
   width: 100%;
   box-sizing: border-box;
   display: block;
@@ -1515,7 +1515,7 @@ main card
   justify-content: center;
 }
 .trm-main-card-frame .trm-main-card .trm-social a {
-  color: #00283a;
+  color: #1D1E24;
   margin: 0 10px;
   transition: 0.4s ease-in-out;
 }
@@ -1654,7 +1654,7 @@ counters
 .trm-counter-up .trm-counter-number {
   font-size: 24px;
   font-weight: 900;
-  color: #00283a;
+  color: #1D1E24;
   line-height: 20px;
 }
 .trm-counter-up .trm-counter-number .trm-counter-symbol {
@@ -1981,7 +1981,7 @@ price
 .trm-price .trm-price-number {
   font-size: 32px;
   font-weight: 900;
-  color: #00283a;
+  color: #1D1E24;
   line-height: 30px;
 }
 .trm-price .trm-price-number sup {
@@ -2141,7 +2141,7 @@ timeline
   margin-bottom: 15px;
 }
 .trm-timeline .trm-timeline-content .trm-card-header .trm-right-side .trm-date {
-  color: #00283a;
+  color: #1D1E24;
   margin-left: auto;
   background: #f4f5f7;
   padding: 5px 15px;
@@ -2618,7 +2618,7 @@ fancybox
 }
 
 .fancybox-bg {
-  background-color: #00151f;
+  background-color: #1D1E24;
 }
 
 .fancybox-button {
@@ -2645,7 +2645,7 @@ fancybox
 }
 .fancybox-toolbar .fancybox-button {
   margin-top: 0;
-  color: #00283a;
+  color: #1D1E24;
 }
 
 .fancybox-infobar {

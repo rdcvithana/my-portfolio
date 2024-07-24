@@ -6,6 +6,7 @@ import { useContext, useEffect } from "react";
 const Index = () => {
   const { banner_image_function, page_info_function } = useContext(context);
   useEffect(() => {
+    banner_image_function("/img/banner2.gif");
     page_info_function(
       "Let's Get in <br> Touch ",
       "contact",

@@ -10,7 +10,7 @@ import { useContext, useEffect } from "react";
 const Index = () => {
   const { banner_image_function, banner_type_function } = useContext(context);
   useEffect(() => {
-    banner_image_function("/img/banner2.jpg");
+    banner_image_function("/img/banner2.gif");
     banner_type_function("image");
   }, []);
   return (
