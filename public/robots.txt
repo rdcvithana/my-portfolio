@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.rdcvithna.com
+
+# Sitemaps
+Sitemap: https://www.rdcvithna.com/sitemap.xml
