@@ -20,7 +20,7 @@ const Index = () => {
           >
             <div className="trm-mb-40">
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">Turkish</h6>
+                <h6 className="trm-mb-15">Sinhala</h6>
                 <span className="trm-label trm-label-light">Native</span>
               </div>
               <div className="trm-progressbar-frame">
@@ -46,20 +46,20 @@ const Index = () => {
           >
             <div className="trm-mb-40">
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">Spanish</h6>
-                <span className="trm-label trm-label-light">80%</span>
+                <h6 className="trm-mb-15">Tamil</h6>
+                <span className="trm-label trm-label-light">30%</span>
               </div>
               <div className="trm-progressbar-frame">
-                <div className="trm-progressbar p80" />
+                <div className="trm-progressbar p30" />
               </div>
             </div>
             <div>
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">Italian</h6>
-                <span className="trm-label trm-label-light">60%</span>
+                <h6 className="trm-mb-15">Other</h6>
+                <span className="trm-label trm-label-light">00%</span>
               </div>
               <div className="trm-progressbar-frame">
-                <div className="trm-progressbar p60" />
+                <div className="trm-progressbar p00" />
               </div>
             </div>
           </div>
@@ -76,25 +76,70 @@ const Index = () => {
           >
             <div className="trm-mb-40">
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">Html</h6>
-                <span className="trm-label trm-label-light">100%</span>
+                <h6 className="trm-mb-15">Amazon Web Service</h6>
+                <span className="trm-label trm-label-light">70%</span>
               </div>
               <div className="trm-progressbar-frame">
-                <div className="trm-progressbar p100" />
+                <div className="trm-progressbar p70" />
               </div>
             </div>
             <div className="trm-mb-40">
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">CSS</h6>
-                <span className="trm-label trm-label-light">100%</span>
+                <h6 className="trm-mb-15">Microsoft Azure Service</h6>
+                <span className="trm-label trm-label-light">30%</span>
               </div>
               <div className="trm-progressbar-frame">
-                <div className="trm-progressbar p100" />
+                <div className="trm-progressbar p30" />
+              </div>
+            </div>
+            <div className="trm-mb-40">
+              <div className="trm-skill-header">
+                <h6 className="trm-mb-15">Linux Environment</h6>
+                <span className="trm-label trm-label-light">60%</span>
+              </div>
+              <div className="trm-progressbar-frame">
+                <div className="trm-progressbar p60" />
+              </div>
+            </div>
+            <div className="trm-mb-40">
+              <div className="trm-skill-header">
+                <h6 className="trm-mb-15">Network Administrator</h6>
+                <span className="trm-label trm-label-light">50%</span>
+              </div>
+              <div className="trm-progressbar-frame">
+                <div className="trm-progressbar p50" />
+              </div>
+            </div>
+            <div className="trm-mb-40">
+              <div className="trm-skill-header">
+                <h6 className="trm-mb-15">Infrastructure as Code</h6>
+                <span className="trm-label trm-label-light">40%</span>
+              </div>
+              <div className="trm-progressbar-frame">
+                <div className="trm-progressbar p40" />
+              </div>
+            </div>
+            <div className="trm-mb-40">
+              <div className="trm-skill-header">
+                <h6 className="trm-mb-15">Automation and scripting</h6>
+                <span className="trm-label trm-label-light">60%</span>
+              </div>
+              <div className="trm-progressbar-frame">
+                <div className="trm-progressbar p60" />
+              </div>
+            </div>
+            <div className="trm-mb-40">
+              <div className="trm-skill-header">
+                <h6 className="trm-mb-15">CICD</h6>
+                <span className="trm-label trm-label-light">70%</span>
+              </div>
+              <div className="trm-progressbar-frame">
+                <div className="trm-progressbar p70" />
               </div>
             </div>
             <div>
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">SCSS</h6>
+                <h6 className="trm-mb-15">Git</h6>
                 <span className="trm-label trm-label-light">80%</span>
               </div>
               <div className="trm-progressbar-frame">
@@ -112,15 +157,60 @@ const Index = () => {
             <div className="trm-mb-40">
               <div className="trm-skill-header">
                 <h6 className="trm-mb-15">jQuery</h6>
-                <span className="trm-label trm-label-light">90%</span>
+                <span className="trm-label trm-label-light">60%</span>
               </div>
               <div className="trm-progressbar-frame">
-                <div className="trm-progressbar p90" />
+                <div className="trm-progressbar p60" />
               </div>
             </div>
             <div className="trm-mb-40">
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">Vue js</h6>
+                <h6 className="trm-mb-15">Docker</h6>
+                <span className="trm-label trm-label-light">80%</span>
+              </div>
+              <div className="trm-progressbar-frame">
+                <div className="trm-progressbar p70" />
+              </div>
+            </div>
+            <div className="trm-mb-40">
+              <div className="trm-skill-header">
+                <h6 className="trm-mb-15">Nginx</h6>
+                <span className="trm-label trm-label-light">40%</span>
+              </div>
+              <div className="trm-progressbar-frame">
+                <div className="trm-progressbar p40" />
+              </div>
+            </div>
+            <div className="trm-mb-40">
+              <div className="trm-skill-header">
+                <h6 className="trm-mb-15">PHP</h6>
+                <span className="trm-label trm-label-light">70%</span>
+              </div>
+              <div className="trm-progressbar-frame">
+                <div className="trm-progressbar p70" />
+              </div>
+            </div>
+            <div className="trm-mb-40">
+              <div className="trm-skill-header">
+                <h6 className="trm-mb-15">Python</h6>
+                <span className="trm-label trm-label-light">40%</span>
+              </div>
+              <div className="trm-progressbar-frame">
+                <div className="trm-progressbar p40" />
+              </div>
+            </div>
+            <div className="trm-mb-40">
+              <div className="trm-skill-header">
+                <h6 className="trm-mb-15">Jenkins</h6>
+                <span className="trm-label trm-label-light">20%</span>
+              </div>
+              <div className="trm-progressbar-frame">
+                <div className="trm-progressbar p20" />
+              </div>
+            </div>
+            <div className="trm-mb-40">
+              <div className="trm-skill-header">
+                <h6 className="trm-mb-15">React js</h6>
                 <span className="trm-label trm-label-light">70%</span>
               </div>
               <div className="trm-progressbar-frame">
@@ -129,7 +219,7 @@ const Index = () => {
             </div>
             <div>
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">Js</h6>
+                <h6 className="trm-mb-15">Css</h6>
                 <span className="trm-label trm-label-light">60%</span>
               </div>
               <div className="trm-progressbar-frame">
@@ -145,7 +235,7 @@ const Index = () => {
         <div className="col-lg-12">
           {/* title */}
           <h5 className="trm-mb-40 trm-title-with-divider">
-            knowledge <span data-number={2} />
+            Tools <span data-number={2} />
           </h5>
         </div>
         <div className="col-lg-12">
@@ -153,23 +243,23 @@ const Index = () => {
             <div className="row">
               <div className="col-lg-4">
                 <ul className="trm-list">
-                  <li>Photoshop</li>
-                  <li>Sketch</li>
-                  <li>Figma</li>
+                  <li>Postmen</li>
+                  <li>Mongo DB</li>
+                  <li>Visual studio</li>
                 </ul>
               </div>
               <div className="col-lg-4">
                 <ul className="trm-list">
+                  <li>Tailwind</li>
+                  <li>Bootstrap</li>
                   <li>Gulp</li>
-                  <li>Sass</li>
-                  <li>Bootstrap</li>
                 </ul>
               </div>
               <div className="col-lg-4">
                 <ul className="trm-list">
-                  <li>Bootstrap</li>
-                  <li>React js</li>
-                  <li>Vue js</li>
+                  <li>Photoshop</li>
+                  <li>Adobe XD</li>
+                  <li>Figma</li>
                 </ul>
               </div>
             </div>
@@ -181,7 +271,7 @@ const Index = () => {
         <div className="col-lg-12">
           {/* title */}
           <h5 className="trm-mb-40 trm-title-with-divider">
-            Employment History <span data-number={3} />
+            History <span data-number={3} />
           </h5>
         </div>
         <div className="col-lg-6">
@@ -197,55 +287,27 @@ const Index = () => {
               <div className="trm-a trm-timeline-content">
                 <div className="trm-card-header">
                   <div className="trm-left-side">
-                    <h6 className="trm-mb-15">Toronto Art School</h6>
+                    <h6 className="trm-mb-15">University OF Jaffna</h6>
                     <div className="trm-text-sm trm-accent-color trm-mb-15">
-                      <i>jan 2018 - may 2020</i>
+                      <i>jan 2020 - jan 2024</i>
                     </div>
                   </div>
                 </div>
                 <div className="trm-mb-20">
-                  Dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                  dolorum provident rerum aut hic quasi placeat iure tempora
-                  laudantium ipsa ad debitis unde. Quasi placeat. Iste
-                  voluptatibus minus veritatis qui ut.
+                I am a student at the University of Jaffna, 
+                Faculty of Technology, pursuing a Bachelor's degree 
+                in Information Communication Technology. My studies focus 
+                on a range of topics including software development, networking and cloud computing providing me with a solid 
+                pundation in both theoretical and practical aspects of the field.
                 </div>
                 <a
                   data-fancybox
                   href="files/diploma.jpg"
                   className="trm-label trm-label-color"
                 >
-                  Diploma <i className="fas fa-arrow-right" />
+                  Degree <i className="fas fa-arrow-right" />
                 </a>
-              </div>
-            </div>
-            <div
-              className="trm-timeline-item trm-scroll-animation trm-active-el"
-              data-scroll
-              data-scroll-offset={40}
-            >
-              <div className="trm-timeline-mark-light" />
-              <div className="trm-timeline-mark" />
-              <div className="trm-a trm-timeline-content">
-                <div className="trm-card-header">
-                  <div className="trm-left-side">
-                    <h6 className="trm-mb-15">Designe Academy</h6>
-                    <div className="trm-text-sm trm-accent-color trm-mb-15">
-                      <i>jan 2018 - may 2020</i>
-                    </div>
-                  </div>
-                </div>
-                <div className="trm-mb-20">
-                  Dolorum tempora provident rerum aut hic quasi placeat iure
-                  tempora timeline de laudantium ipsa ad debitis unde quasi
-                  placeat Iste voluptatibus minus veritatis qui ut.
-                </div>
-                <a
-                  data-fancybox
-                  href="files/diploma.jpg"
-                  className="trm-label trm-label-color"
-                >
-                  Diploma <i className="fas fa-arrow-right" />
-                </a>
+                
               </div>
             </div>
           </div>
@@ -263,15 +325,14 @@ const Index = () => {
               <div className="trm-a trm-timeline-content">
                 <div className="trm-card-header">
                   <div className="trm-left-side">
-                    <h6 className="trm-mb-15">Graphic Designer</h6>
+                    <h6 className="trm-mb-15">Codeolima Pvt Ltd</h6>
                     <div className="trm-text-sm trm-accent-color trm-mb-15">
-                      <i>jan 2018 - may 2020</i>
+                      <i>Mar 2024 - Present</i>
                     </div>
                   </div>
                 </div>
                 <div>
-                  Dolorum provident rerum aut hic quasi placeat iure tempora
-                  laudantium ipsa ad debitis unde.
+                I am currently an intern DevOps engineer at Codeolima Pvt Ltd.
                 </div>
               </div>
             </div>
@@ -285,35 +346,14 @@ const Index = () => {
               <div className="trm-a trm-timeline-content">
                 <div className="trm-card-header">
                   <div className="trm-left-side">
-                    <h6 className="trm-mb-15">UI/UX Designer</h6>
+                    <h6 className="trm-mb-15">Frelancer</h6>
                     <div className="trm-text-sm trm-accent-color trm-mb-15">
-                      <i>jan 2018 - may 2020</i>
                     </div>
                   </div>
                 </div>
                 <div>
-                  Iusto quasi placeat iure tempora laudantium ipsa ad debitis
-                  unde.
+                Freelancer Web Developer in creating intuitive and accessible websites. With experience in both frontend and backend technologies.
                 </div>
-              </div>
-            </div>
-            <div
-              className="trm-timeline-item trm-scroll-animation trm-active-el"
-              data-scroll
-              data-scroll-offset={40}
-            >
-              <div className="trm-timeline-mark-light" />
-              <div className="trm-timeline-mark" />
-              <div className="trm-a trm-timeline-content">
-                <div className="trm-card-header">
-                  <div className="trm-left-side">
-                    <h6 className="trm-mb-15">UI/UX Designer, Web Developer</h6>
-                    <div className="trm-text-sm trm-accent-color trm-mb-15">
-                      <i>jan 2018 - may 2020</i>
-                    </div>
-                  </div>
-                </div>
-                <div>Dolorum provident rerum aut hic quasi placeat iure</div>
               </div>
             </div>
           </div>

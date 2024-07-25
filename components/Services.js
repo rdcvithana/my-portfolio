@@ -17,20 +17,19 @@ const Services = () => {
           <div className="trm-service-content">
             <div className="trm-icon">
               <img
-                src="/img/icons/icon-1.svg"
+                src="/img/icons/devops.png"
                 alt="icon"
                 className="trm-black-icon"
               />
               <img
-                src="/img/icons/icon-1w.svg"
+                src="/img/icons/devops (1).png"
                 alt="icon"
                 className="trm-white-icon"
               />
             </div>
-            <h6 className="trm-mb-20">Architecture</h6>
+            <h6 className="trm-mb-20">DevOps</h6>
             <div className="trm-mb-20">
-              Dolor sit amet, consectetur adipisicing elit. Delectus esse
-              commodi.
+            I enjoy to improve the speed and quality of delivery, automate and achieve CICD
             </div>
             <a
               data-fancybox=""
@@ -53,20 +52,19 @@ const Services = () => {
           <div className="trm-service-content">
             <div className="trm-icon">
               <img
-                src="/img/icons/icon-2.svg"
+                src="/img/icons/cloud-coding.png"
                 alt="icon"
                 className="trm-black-icon"
               />
               <img
-                src="/img/icons/icon-2w.svg"
+                src="/img/icons/cloud-coding (1).png"
                 alt="icon"
                 className="trm-white-icon"
               />
             </div>
-            <h6 className="trm-mb-20">UI/UX Design</h6>
+            <h6 className="trm-mb-20">Cloud Engineer</h6>
             <div className="trm-mb-20">
-              Dolor sit amet, consectetur adipisicing elit. Delectus esse
-              commodi.
+            I enjoy design, secure and maintenance of an organization’s cloud-based infrastructure and application
             </div>
             <a
               data-fancybox=""
@@ -89,20 +87,19 @@ const Services = () => {
           <div className="trm-service-content">
             <div className="trm-icon">
               <img
-                src="/img/icons/icon-3.svg"
+                src="/img/icons/requirements.png"
                 alt="icon"
                 className="trm-black-icon"
               />
               <img
-                src="/img/icons/icon-3w.svg"
+                src="/img/icons/requirements (1).png"
                 alt="icon"
                 className="trm-white-icon"
               />
             </div>
-            <h6 className="trm-mb-20">Interior Design</h6>
+            <h6 className="trm-mb-20">SRE</h6>
             <div className="trm-mb-20">
-              Dolor sit amet, consectetur adipisicing elit. Delectus esse
-              commodi.
+            I curious the processes and tools that ensure the scalability, reliability and availability of software systems
             </div>
             <a
               data-fancybox=""
@@ -125,20 +122,19 @@ const Services = () => {
           <div className="trm-service-content">
             <div className="trm-icon">
               <img
-                src="/img/icons/icon-4.svg"
+                src="/img/icons/code.png"
                 alt="icon"
                 className="trm-black-icon"
               />
               <img
-                src="/img/icons/icon-4w.svg"
+                src="/img/icons/code (1).png"
                 alt="icon"
                 className="trm-white-icon"
               />
             </div>
-            <h6 className="trm-mb-20">Game design</h6>
+            <h6 className="trm-mb-20">Software Development</h6>
             <div className="trm-mb-20">
-              Dolor sit amet, consectetur adipisicing elit. Delectus esse
-              commodi.
+            I enjoy learning software development either for personal or specific purposes
             </div>
             <a
               data-fancybox=""

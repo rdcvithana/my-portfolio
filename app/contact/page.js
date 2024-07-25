@@ -37,14 +37,14 @@ const Index = () => {
                   className="trm-white-icon"
                 />
               </div>
-              <h6 className="trm-mb-20">Call</h6>
+              <h6 className="trm-mb-20">Call Me</h6>
               <div className="trm-mb-15">
                 <span className="trm-label">Work:</span>{" "}
-                <span className="trm-text-sm">+29 (044) 593 85 63</span>
+                <span className="trm-text-sm">+94 (034) 223 53 89</span>
               </div>
               <div>
                 <span className="trm-label">Personal:</span>{" "}
-                <span className="trm-text-sm">+29 (044) 293 37 28</span>
+                <span className="trm-text-sm">+94 (076) 723 24 85</span>
               </div>
             </div>
           </div>
@@ -70,14 +70,14 @@ const Index = () => {
                   className="trm-white-icon"
                 />
               </div>
-              <h6 className="trm-mb-20">Wright</h6>
+              <h6 className="trm-mb-20">Message Me</h6>
               <div className="trm-mb-15">
                 <span className="trm-label">Email:</span>{" "}
-                <span className="trm-text-sm">trueman.inbox@gmail.com</span>
+                <span className="trm-text-sm">rdcvithana@gmail.com</span>
               </div>
               <div>
                 <span className="trm-label">Instagram:</span>{" "}
-                <span className="trm-text-sm">@emmatrueman</span>
+                <span className="trm-text-sm">@ dimuthu_vithana</span>
               </div>
             </div>
           </div>

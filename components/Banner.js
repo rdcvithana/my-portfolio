@@ -65,8 +65,8 @@ const Image = ({ banner_image }) => {
                   technology together.
                 </h2>
                 <a
-                  data-fancybox=""
-                  href="https://www.youtube.com/watch?v=Mo_vRjtkgSI"
+                  
+                  legacyBehavior href="contact"
                   className="trm-btn trm-btn-border"
                 >
                   HIRE ME <i className="fas fa-play" />

@@ -44,11 +44,6 @@ const TopBar = ({ onePage }) => {
                       Home
                     </Link>                    
                   </li>
-                  <li className="menu-item-has-children">
-                    <Link legacyBehavior href="portfolio">
-                      Portfolio
-                    </Link>
-                  </li>
                   <li>
                     <Link legacyBehavior href="resume">
                       Resume
@@ -85,7 +80,7 @@ const TopBar = ({ onePage }) => {
 
           {/* mode switcher place end */}
           {/* action button */}
-          <a href="files/cv.txt" download="" className="trm-btn trm-btn-sm">
+          <a href="files/rdcvithana.pdf" download="home" className="trm-btn trm-btn-sm">
             Download cv <i className="fas fa-arrow-down" />
           </a>
           {/* action button end */}

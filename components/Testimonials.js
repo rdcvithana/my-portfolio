@@ -30,11 +30,11 @@ const Testimonials = () => {
               </div>
               <div className="trm-testimonial-text">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Molestias officia, debitis minus repellat saepe? Deleniti
-                  blanditiis optio inventore nulla dicta fugiat culpa quis unde,
-                  sequi debitis ex ab! Sapiente vitae rem tempore sunt! Aperiam
-                  eveniet mollitia, quae architecto nostrum.
+                As a DevOps engineer, I streamline and automate software delivery
+                 processes by designing CI/CD pipelines, automating infrastructure
+                  with Docker and Kubernetes, managing cloud platforms like AWS, and ensuring
+                   system performance and security. I collaborate with developers to ensure scalability,
+                    reliability, and security across development, testing, and production environments.
                 </p>
               </div>
             </div>
@@ -54,11 +54,12 @@ const Testimonials = () => {
               </div>
               <div className="trm-testimonial-text">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Molestias officia, debitis minus repellat saepe? Deleniti
-                  blanditiis optio inventore nulla dicta fugiat culpa quis unde,
-                  sequi debitis ex ab! Sapiente vitae rem tempore sunt! Aperiam
-                  eveniet mollitia, quae architecto nostrum.
+                As a web developer, I specialize in creating dynamic and responsive websites 
+                using technologies like HTML, CSS, JavaScript, and frameworks such as React and
+                 Node.js. My responsibilities include designing user interfaces, developing front-end 
+                 and back-end components, optimizing site performance, and ensuring cross-browser compatibility.
+                  I work closely with clients to understand their needs and deliver customized solutions that enhance
+                   user experience and functionality.
                 </p>
               </div>
             </div>

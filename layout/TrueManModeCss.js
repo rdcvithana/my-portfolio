@@ -8,7 +8,7 @@ const TrueManModeCss = () => {
     <head>
       <link
         rel="stylesheet"
-        href={`css/style-${mode ? "dark" : "light"}.css`}
+        href={`css/style-${"dark" ? "dark" : "light"}.css`}
       />
     </head>
   );

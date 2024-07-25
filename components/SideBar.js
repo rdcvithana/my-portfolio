@@ -36,16 +36,16 @@ const SideBar = () => {
           <div className="trm-divider trm-mb-40 trm-mt-40" />
           {/* sidebar social */}
           <div className="trm-social">
-            <a href="#." target="_blank">
+            <a href="https://www.linkedin.com/in/dimuthu-vithana-318626245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
               <i className="fab fa-linkedin-in" />
             </a>
-            <a href="#." target="_blank">
+            <a href="https://www.instagram.com/dimuthu_vithana?igsh=NDhrZThlaHJianFu" target="_blank">
               <i className="fab fa-instagram" />
             </a>
-            <a href="#." target="_blank">
+            <a href="https://www.facebook.com/share/3hMGsSrJrxdHBjQk/?mibextid=qi2Omg" target="_blank">
               <i className="fab fa-facebook-f" />
             </a>
-            <a href="#." target="_blank">
+            <a href="https://x.com/_DIMUTHU_?t=0yr6uiVD2IA1y02V3Etjkg&s=09" target="_blank">
               <i className="fab fa-twitter" />
             </a>
           </div>

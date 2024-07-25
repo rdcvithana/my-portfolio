@@ -4,7 +4,7 @@ const ContactPopup = () => {
     <Fragment>
       <div id="trm-order" className="trm-order">
         <div className="trm-popup-content">
-          <img src="img/popup.jpg" alt="photo" />
+          <img src="img/popup.gif" alt="photo" />
           <div className="trm-popup-form-frame">
             <h5 className="trm-mb-40">Write me a message</h5>
             <form id="form1">
