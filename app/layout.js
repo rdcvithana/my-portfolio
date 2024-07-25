@@ -11,7 +11,7 @@ import State from "/context/context";
 
 export const metadata = {
   title: "Dimuthu Vithana",
-  description: "As a dedicated DevOps Engineer ,End-to-End DevOps Mastery, Building Scalable Systems",
+  description: "As a dedicated DevOps Engineer ,End-to-End DevOps Mastery, Building Scalable Systems.",
 };
 
 export default function RootLayout({ children }) {
