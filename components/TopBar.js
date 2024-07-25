@@ -102,42 +102,14 @@ const OnePageMenu = () => {
     <ul>
       <li>
         <a
-          href="#home-triger"
+          href="/"
           data-scroll-to="#home-triger"
           data-scroll-offset={-10}
         >
           Home
         </a>
-        <ul>
-          <li>
-            <Link href="onepage-image">Image</Link>
-          </li>
-          <li>
-            <Link href="onepage-video">Video</Link>
-          </li>
-          <li>
-            <Link href="onepage-slideshow">Slideshow</Link>
-          </li>
-        </ul>
       </li>
-      <li id="about-link">
-        <a
-          href="#about-triger"
-          data-scroll-to="#about-triger"
-          data-scroll-offset={-130}
-        >
-          About
-        </a>
-      </li>
-      <li id="portfolio-link">
-        <a
-          href="#portfolio-triger"
-          data-scroll-to="#portfolio-triger"
-          data-scroll-offset={-130}
-        >
-          Portfolio
-        </a>
-      </li>
+      
       <li id="resume-link">
         <a
           href="#resume-triger"
