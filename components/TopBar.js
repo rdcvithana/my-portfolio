@@ -24,9 +24,9 @@ const TopBar = ({ onePage }) => {
           {/* logo */}
           <Link legacyBehavior href="/">
             <a className="trm-logo-frame trm-anima-link">
-              <div className="trm-logo-text">
+              <h1 className="trm-logo-text">
                 Dimuthu <span> Vithana</span>
-              </div>
+              </h1>
             </a>
           </Link>
           {/* logo end */}
