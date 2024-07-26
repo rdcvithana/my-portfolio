@@ -19,12 +19,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-      <meta name="google-site-verification" content="NgQh67UVZ-v6TiYmdULRa980neneFveuLm4grG31NQE" />
-        <title>Dimuthu Vithana</title>
+        <meta name="google-site-verification" content="NgQh67UVZ-v6TiYmdULRa980neneFveuLm4grG31NQE" />
+        <title>"Dimuthu Vithana</title>
         <meta name="description" content="Dimuthu Vithana" />
         <meta name="keywords" content="DevOps, DevOps Engineer, Scalable Systems, Next.js Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
