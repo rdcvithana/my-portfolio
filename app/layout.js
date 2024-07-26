@@ -9,11 +9,16 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 import "./globals.css";
 import State from "/context/context";
 import Head from 'next/head';
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
+import { robotsTxtOptions } from "@/next-sitemap.config";
 
 export const metadata = {
   title: "Dimuthu Vithana",
   description: "As a dedicated DevOps Engineer, End-to-End DevOps Mastery, Building Scalable Systems.",
+  robots:{
+    index:false,
+    follow:true
+  }
 };
 
 export default function RootLayout({ children }) {
@@ -22,16 +27,16 @@ export default function RootLayout({ children }) {
       <Head>
         <meta name="google-site-verification" content="NgQh67UVZ-v6TiYmdULRa980neneFveuLm4grG31NQE" />
         <title>Dimuthu Vithana</title>
-        <meta name="description" content="As a dedicated DevOps Engineer, End-to-End DevOps Mastery, Building Scalable Systems." />
+        <meta name="description" content={metadata.description} />
         <meta name="keywords" content="DevOps, DevOps Engineer, Scalable Systems, Next.js Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
-        <link rel="manifest" href="/site.webmanifest"/>
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#131819"/>
-        <meta name="msapplication-TileColor" content="#da532c"/>
-        <meta name="theme-color" content="#ffffff"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#131819" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -50,7 +55,6 @@ export default function RootLayout({ children }) {
       <State>
         <TrueManModeCss />
         <body>
-        <Analytics />
           <div className="trm-app-frame">
             <Preloader />
             <div id="trm-dynamic-content" className="trm-swup-animation">
@@ -63,6 +67,7 @@ export default function RootLayout({ children }) {
               </div>
             </div>
           </div>
+          <Analytics /> {/* Moved Analytics here */}
         </body>
       </State>
     </html>

@@ -1,9 +1,11 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /private
+Disallow: /admin
 
 # Host
-Host: https://www.rdcvithna.com
+Host: https://www.rdcvithana.com
 
 # Sitemaps
-Sitemap: https://www.rdcvithna.com/sitemap.xml
+Sitemap: https://www.rdcvithana.com/sitemap.xml
