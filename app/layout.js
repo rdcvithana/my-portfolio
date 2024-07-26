@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <Head>
       <meta name="google-site-verification" content="NgQh67UVZ-v6TiYmdULRa980neneFveuLm4grG31NQE" />
         <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+        <meta name="description" content="Dimuthu Vithana" />
         <meta name="keywords" content="DevOps, DevOps Engineer, Scalable Systems, Next.js Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Dimuthu Vithana",
+            "jobTitle":"Web Developer",
             "url": "https://rdcvithana.com",
             "sameAs": [
               "https://www.linkedin.com/in/dimuthu-vithana-318626245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
