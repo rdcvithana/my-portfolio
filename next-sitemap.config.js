@@ -1,7 +1,7 @@
 // next-sitemap.config.js
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: 'https://www.rdcvithana.com',
+  siteUrl: 'https://rdcvithana.com',
   generateRobotsTxt: true, // (optional) Generate a robots.txt file
   generateIndexSitemap: true, // (optional) Generate a sitemap index file
   sitemapSize: 5000, // (optional) Maximum number of URLs per sitemap file
@@ -17,7 +17,7 @@ const config = {
       },
     ],
     additionalSitemaps: [
-      'https://www.rdcvithana.com/sitemap.xml',
+      'https://rdcvithana.com/sitemap.xml',
     ],
   },
 };
