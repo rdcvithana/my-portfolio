@@ -9,6 +9,7 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 import "./globals.css";
 import State from "/context/context";
 import Head from 'next/head';
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: "Dimuthu Vithana",
@@ -49,6 +50,7 @@ export default function RootLayout({ children }) {
       <State>
         <TrueManModeCss />
         <body>
+        <Analytics />
           <div className="trm-app-frame">
             <Preloader />
             <div id="trm-dynamic-content" className="trm-swup-animation">
