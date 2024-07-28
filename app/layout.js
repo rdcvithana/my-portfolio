@@ -45,6 +45,7 @@ export default function RootLayout({ children }) {
             "url": "https://rdcvithana.com",
             "sameAs": [
               "https://www.linkedin.com/in/dimuthu-vithana-318626245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+              "https://github.com/rdcvithana",
               "https://www.facebook.com/share/3hMGsSrJrxdHBjQk/?mibextid=qi2Omg",
               "https://www.instagram.com/dimuthu_vithana?igsh=NDhrZThlaHJianFu",
               "https://x.com/_DIMUTHU_?t=0yr6uiVD2IA1y02V3Etjkg&s=09" 
