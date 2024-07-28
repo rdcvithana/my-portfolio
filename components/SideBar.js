@@ -24,7 +24,7 @@ const SideBar = () => {
               <img className="trm-avatar" src="img/avatar.jpg" alt="Avatar" />
               <div className="trm-dot" />
             </div>
-            <h5 className="trm-name trm-mb-15">Dimuthu Vithana</h5>
+            <h1 className="trm-name trm-mb-15">Dimuthu Vithana</h1>
             <div className="trm-label">
               I`m{" "}
               <span className="trm-typed-text">

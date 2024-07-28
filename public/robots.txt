@@ -5,7 +5,7 @@ Disallow: /private
 Disallow: /admin
 
 # Host
-Host: https://www.rdcvithana.com
+Host: https://rdcvithana.com
 
 # Sitemaps
-Sitemap: https://www.rdcvithana.com/sitemap.xml
+Sitemap: https://rdcvithana.com/sitemap.xml
