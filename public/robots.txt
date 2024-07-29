@@ -1,11 +1,14 @@
 # *
 User-agent: *
 Allow: /
-Disallow: /private
-Disallow: /admin
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /private/
 
 # Host
 Host: https://rdcvithana.com
 
 # Sitemaps
 Sitemap: https://rdcvithana.com/sitemap.xml
+Sitemap: https://rdcvithana.com/sitemap-0.xml
