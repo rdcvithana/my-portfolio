@@ -6,7 +6,7 @@ export async function GET() {
     User-agent: *
     Disallow: /private/
     Allow: /
-    Sitemap: https://www.rdcvithana.com/sitemap.xml
+    Sitemap: https://rdcvithana.com/sitemap.xml
   `;
 
   return NextResponse.json(robotsTxt, {
