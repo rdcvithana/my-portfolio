@@ -1,7 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 const config = {
   siteUrl: 'https://rdcvithana.com',
-  generateRobotsTxt: true, // Generate a robots.txt file
   generateIndexSitemap: true, // Generate a sitemap index file
   sitemapSize: 5000, // Maximum number of URLs per sitemap file
   changefreq: 'daily', // How often the pages are updated
@@ -11,13 +10,12 @@ const config = {
     policies: [
       {
         userAgent: '*',
-        disallow: ['/api/', '/_next/', '/static/', '/private/'],
         allow: '/',
+        disallow: ['/private/', '/admin/'],
       },
     ],
     additionalSitemaps: [
       'https://rdcvithana.com/sitemap.xml',
-      'https://rdcvithana.com/sitemap-0.xml',
     ],
   },
 };
