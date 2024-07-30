@@ -44,7 +44,7 @@ const state = (props) => {
     mode: false,
     banner_image: "/img/banner.jpg",
     banner_type: "",
-    page_info: { pageTitle: "", subTitle: "", pageName: "", scroll_down: true },
+    page_info: { pageTitle: "Dimuthu Vithana", subTitle: "", pageName: "", scroll_down: true },
   };
   const [state, dispatch] = useReducer(reducer, initialState);
 
