@@ -17,6 +17,7 @@ const config = {
     ],
     additionalSitemaps: [
       'https://rdcvithana.com/sitemap.xml',
+      "https://rdcvithana.com/sitemap-0.xml",
     ],
   },
 };
