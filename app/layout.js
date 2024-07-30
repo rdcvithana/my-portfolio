@@ -10,14 +10,13 @@ import "./globals.css";
 import State from "/context/context";
 import Head from 'next/head';
 import { Analytics } from "@vercel/analytics/react";
-import { robotsTxtOptions } from "@/next-sitemap.config";
 
 export const metadata = {
   title: "Dimuthu Vithana",
   description: "As a dedicated DevOps Engineer, I continuously pursue end-to-end mastery and scalable system design. Embracing challenges as growth opportunities, I stay prepared for new complexities, turning them into chances for innovation and success.",
-  robots:{
-    index:true,
-    follow:true
+  robots: {
+    index: true,
+    follow: true
   }
 };
 
