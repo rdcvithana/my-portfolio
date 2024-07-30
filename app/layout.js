@@ -14,7 +14,7 @@ import { robotsTxtOptions } from "@/next-sitemap.config";
 
 export const metadata = {
   title: "Dimuthu Vithana",
-  description: "As a dedicated DevOps Engineer, End-to-End DevOps Mastery, Building Scalable Systems.",
+  description: "As a dedicated DevOps Engineer, I continuously pursue end-to-end mastery and scalable system design. Embracing challenges as growth opportunities, I stay prepared for new complexities, turning them into chances for innovation and success.",
   robots:{
     index:true,
     follow:true

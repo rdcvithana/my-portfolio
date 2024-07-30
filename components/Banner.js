@@ -59,11 +59,11 @@ const Image = ({ banner_image }) => {
               {/* banner title */}
               <div className="trm-banner-text">
                 <div className="trm-label trm-mb-20">Hi my new friend!</div>
-                <h2 className="trm-mb-30">
+                <h3 className="trm-mb-30">
                 Let's explore the world of 
                   <br />
                   technology together.
-                </h2>
+                </h3>
                 <a
                   
                   legacyBehavior href="contact"

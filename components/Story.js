@@ -12,7 +12,7 @@ const Story = () => {
           data-scroll=""
           data-scroll-offset={40}
         >
-          My works and advancements, through my study and dedication, provoke greater challenges so that I may always be ready for new opportunities and challenges. Therefore, let us act accordingly.
+          As a dedicated DevOps Engineer, I continuously pursue end-to-end mastery and scalable system design. Embracing challenges as growth opportunities, I stay prepared for new complexities, turning them into chances for innovation and success.
         </blockquote>
         {/* quote end */}
       </div>
