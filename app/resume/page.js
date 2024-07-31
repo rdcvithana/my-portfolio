@@ -201,8 +201,8 @@ const Index = () => {
             </div>
             <div className="trm-mb-40">
               <div className="trm-skill-header">
-                <h6 className="trm-mb-15">Jenkins</h6>
-                <span className="trm-label trm-label-light">20%</span>
+                <h6 className="trm-mb-15">SEO</h6>
+                <span className="trm-label trm-label-light">60%</span>
               </div>
               <div className="trm-progressbar-frame">
                 <div className="trm-progressbar p20" />
@@ -252,7 +252,7 @@ const Index = () => {
                 <ul className="trm-list">
                   <li>Tailwind</li>
                   <li>Bootstrap</li>
-                  <li>Gulp</li>
+                  <li>Jenkins</li>
                 </ul>
               </div>
               <div className="col-lg-4">

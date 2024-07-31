@@ -33,7 +33,7 @@ const SideBar = () => {
             </div>
           </div>
           {/* card header end */}
-          <div className="trm-divider trm-mb-40 trm-mt-40" />
+          <div className="trm-divider trm-mb-30 trm-mt-40" />
           {/* sidebar social */}
           <div className="trm-social">
             <a href="https://www.linkedin.com/in/dimuthu-vithana-318626245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
