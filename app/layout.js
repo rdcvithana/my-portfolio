@@ -39,9 +39,9 @@ export default function RootLayout({ children }) {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Person",
+            "@type": "WebSite",
             "name": "Dimuthu Vithana",
-            "url": "https://rdcvithana.com",
+            "url": "https://rdcvithana.com/",
             "sameAs": [
               "https://www.linkedin.com/in/dimuthu-vithana-318626245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
               "https://github.com/rdcvithana",
