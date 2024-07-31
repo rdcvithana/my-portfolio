@@ -37,7 +37,7 @@ const Index = () => {
                   className=""
                 />
               </div>
-              <h6 className="trm-mb-20">Call Me</h6>
+              <h6 className="trm-mb-20">Call</h6>
               <div className="trm-mb-15">
                 <span className="trm-label">Work:</span>{" "}
                 <span className="trm-text-sm">+94 (034) 223 53 89</span>
@@ -70,7 +70,8 @@ const Index = () => {
                   className=""
                 />
               </div>
-              <h6 className="trm-mb-20">Message Me</h6>
+            <h6 className="trm-mb-20">Write</h6>
+            <h6 className="trm-mb-20"></h6>
               <div className="trm-mb-15">
                 <span className="trm-label">Email:</span>{" "}
                 <span className="trm-text-sm">rdcvithana@gmail.com</span>

@@ -71,7 +71,7 @@ const ContactInfo = () => {
                 className=""
               />
             </div>
-            <h6 className="trm-mb-20">Wright</h6>
+            <h6 className="trm-mb-20">Write</h6>
             <div className="trm-mb-15">
               <span className="trm-label">Email:</span>{" "}
               <span className="trm-text-sm">rdcvithana@gmail.com</span>
