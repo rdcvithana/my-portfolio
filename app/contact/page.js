@@ -34,7 +34,7 @@ const Index = () => {
                 <img
                   src="img/icons/icon-5w.svg"
                   alt="icon"
-                  className="trm-white-icon"
+                  className=""
                 />
               </div>
               <h6 className="trm-mb-20">Call Me</h6>
@@ -67,7 +67,7 @@ const Index = () => {
                 <img
                   src="img/icons/icon-6w.svg"
                   alt="icon"
-                  className="trm-white-icon"
+                  className=""
                 />
               </div>
               <h6 className="trm-mb-20">Message Me</h6>

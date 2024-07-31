@@ -19,12 +19,12 @@ const Services = () => {
               <img
                 src="/img/icons/devops.png"
                 alt="icon"
-                className="trm-black-icon"
+                className=""
               />
               <img
                 src="/img/icons/devops (1).png"
                 alt="icon"
-                className="trm-white-icon"
+                className=""
               />
             </div>
             <h6 className="trm-mb-20">DevOps</h6>
@@ -52,14 +52,49 @@ const Services = () => {
           <div className="trm-service-content">
             <div className="trm-icon">
               <img
+                src="/img/icons/code.png"
+                alt="icon"
+                className=""
+              />
+              <img
+                src="/img/icons/code (1).png"
+                alt="icon"
+                className=""
+              />
+            </div>
+            <h6 className="trm-mb-20">Software Development</h6>
+            <div className="trm-mb-20">
+            I enjoy learning software development either for personal or specific purposes
+            </div>
+            <a
+              data-fancybox=""
+              href="#trm-order"
+              className="trm-label trm-label-color"
+            >
+              Order now <i className="fas fa-arrow-right" />
+            </a>
+          </div>
+        </div>
+        {/* service end */}
+      </div>
+      <div className="col-lg-6">
+        {/* service */}
+        <div
+          className="trm-service-icon-box trm-scroll-animation"
+          data-scroll=""
+          data-scroll-offset={40}
+        >
+          <div className="trm-service-content">
+            <div className="trm-icon">
+              <img
                 src="/img/icons/cloud-coding.png"
                 alt="icon"
-                className="trm-black-icon"
+                className=""
               />
               <img
                 src="/img/icons/cloud-coding (1).png"
                 alt="icon"
-                className="trm-white-icon"
+                className=""
               />
             </div>
             <h6 className="trm-mb-20">Cloud Engineer</h6>
@@ -89,52 +124,17 @@ const Services = () => {
               <img
                 src="/img/icons/requirements.png"
                 alt="icon"
-                className="trm-black-icon"
+                className=""
               />
               <img
                 src="/img/icons/requirements (1).png"
                 alt="icon"
-                className="trm-white-icon"
+                className=""
               />
             </div>
             <h6 className="trm-mb-20">SRE</h6>
             <div className="trm-mb-20">
             I curious the processes and tools that ensure the scalability, reliability and availability of software systems
-            </div>
-            <a
-              data-fancybox=""
-              href="#trm-order"
-              className="trm-label trm-label-color"
-            >
-              Order now <i className="fas fa-arrow-right" />
-            </a>
-          </div>
-        </div>
-        {/* service end */}
-      </div>
-      <div className="col-lg-6">
-        {/* service */}
-        <div
-          className="trm-service-icon-box trm-scroll-animation"
-          data-scroll=""
-          data-scroll-offset={40}
-        >
-          <div className="trm-service-content">
-            <div className="trm-icon">
-              <img
-                src="/img/icons/code.png"
-                alt="icon"
-                className="trm-black-icon"
-              />
-              <img
-                src="/img/icons/code (1).png"
-                alt="icon"
-                className="trm-white-icon"
-              />
-            </div>
-            <h6 className="trm-mb-20">Software Development</h6>
-            <div className="trm-mb-20">
-            I enjoy learning software development either for personal or specific purposes
             </div>
             <a
               data-fancybox=""
