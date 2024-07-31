@@ -36,10 +36,16 @@ export default function RootLayout({ children }) {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#131819" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        <meta property="og:site_name" content="Dimuthu Vithana" />
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:url" content="https://rdcvithana.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="URL_TO_IMAGE" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "WebSite",
+            "@type": "Person",
             "name": "Dimuthu Vithana",
             "url": "https://rdcvithana.com/",
             "sameAs": [
@@ -69,7 +75,7 @@ export default function RootLayout({ children }) {
               </div>
             </div>
           </div>
-          <Analytics /> {/* Moved Analytics here */}
+          <Analytics />
         </body>
       </State>
     </html>
