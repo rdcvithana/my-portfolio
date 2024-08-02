@@ -1,12 +1,18 @@
 import { Fragment } from "react";
+import Head from "next/head"; // Import the Head component
+
 const Contact = () => {
   return (
     <Fragment>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <ContactInfo />
       <ContactForm />
     </Fragment>
   );
 };
+
 export default Contact;
 
 const ContactInfo = () => {
@@ -87,6 +93,7 @@ const ContactInfo = () => {
     </div>
   );
 };
+
 const ContactForm = () => {
   return (
     <div className="row">
