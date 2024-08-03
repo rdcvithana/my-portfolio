@@ -3,11 +3,14 @@ const path = require('path');
 
 const robotsTxtContent = `
 User-agent: *
-Allow: /
 Disallow: /private/
 Disallow: /admin/
+Allow: /contact
+Allow: /resum
+
 Sitemap: https://rdcvithana.com/sitemap.xml
 Sitemap: https://rdcvithana.com/sitemap-0.xml
+
 `;
 
 const robotsTxtPath = path.join(__dirname, 'public', 'robots.txt');
