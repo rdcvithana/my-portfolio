@@ -1,13 +1,13 @@
+// app/page.js
 "use client";
-import Head from 'next/head';  // Import Head for managing metadata
+import { useEffect, useContext } from 'react';
+import TrueManLayout from "@/layout/TrueManLayout";
 import Counter from "@/components/Counter";
-import Services from "@/components/Services";
 import Story from "@/components/Story";
+import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import { context } from "@/context/context";
-import TrueManLayout from "@/layout/TrueManLayout";
-import { useContext, useEffect } from "react";
 
 const Index = () => {
   const { banner_image_function, banner_type_function } = useContext(context);
@@ -19,23 +19,11 @@ const Index = () => {
 
   return (
     <TrueManLayout>
-      
-      {/* stats */}
       <Counter />
-      {/* stats end */}
-      {/* text */}
       <Story />
-      {/* text end */}
-      {/* video resume */}
       <Services />
-      {/* video resume end */}
-      {/* services */}
       <Testimonials />
-      {/* services end */}
-      {/* price plans */}
       <Contact />
-      {/* price plans end */}
-      {/* testimonials */}
     </TrueManLayout>
   );
 };

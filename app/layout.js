@@ -18,7 +18,6 @@ export const metadata = {
     index: true,
     follow: true
   },
-  image: "https://rdcvithana.com/path-to-your-image.jpg" // Replace with the actual URL of your image
 };
 
 export default function RootLayout({ children }) {
@@ -44,7 +43,6 @@ export default function RootLayout({ children }) {
         <meta property="og:description" content={metadata.description} />
         <meta property="og:url" content="https://rdcvithana.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={metadata.image} />
 
         {/* Structured data */}
         <script type="application/ld+json">
