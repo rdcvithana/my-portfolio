@@ -17,7 +17,8 @@ export const metadata = {
   robots: {
     index: true,
     follow: true
-  }
+  },
+  image: "https://rdcvithana.com/path-to-your-image.jpg" // Replace with the actual URL of your image
 };
 
 export default function RootLayout({ children }) {
@@ -36,12 +37,16 @@ export default function RootLayout({ children }) {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#131819" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <meta property="og:site_name" content="Dimuthu Vithana" />
+        
+        {/* Open Graph meta tags */}
+        <meta property="og:site_name" content={metadata.title} />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:url" content="https://rdcvithana.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="URL_TO_IMAGE" />
+        <meta property="og:image" content={metadata.image} />
+
+        {/* Structured data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
