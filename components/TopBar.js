@@ -59,26 +59,6 @@ const TopBar = ({ onePage }) => {
             </nav>
           </div>
           {/* menu end */}
-          {/* mode switcher place */}
-          <div className="trm-mode-switcher-place">
-            <div className="trm-mode-switcher">
-              <i className="far fa-sun" />
-              <input
-                onChange={(e) => {
-                  localStorage.setItem("trueman", e.target.checked);
-                  modeChange(e.target.checked);
-                }}
-                checked={mode}
-                className="tgl tgl-light"
-                id="trm-swich"
-                type="checkbox"
-              />
-              <label className="trm-swich" htmlFor="trm-swich" />
-              <i className="far fa-moon" />
-            </div>
-          </div>
-
-          {/* mode switcher place end */}
           {/* action button */}
           <a href="files/rdcvithana.pdf" download="home" className="trm-btn trm-btn-sm">
             Download cv <i className="fas fa-arrow-down" />
